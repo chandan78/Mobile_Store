@@ -1,0 +1,29 @@
+{
+  "name": "node_music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chandan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "bootstrap": "^4.3.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.7.1",
+    "express": "*",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "mongodb": "^3.3.3",
+    "mongojs": "^3.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

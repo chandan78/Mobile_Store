@@ -1,0 +1,49 @@
+<%- include('includes/header')%>
+
+
+
+  <div class="maain" id="maain">
+		<div class="log" id="log">
+	  <div class="container">
+		<div class="row">
+
+			
+		  <div class="col-md-6 col-lg-6 col-xs-12">
+			<h5>You are all Set</h5>
+			<p>
+			 Login or Register
+			</p>
+			<p>
+			  To see Latest mobile phones . .
+			</p>
+		  </div>
+	
+	
+		  <div class="col-md-6 col-lg-6 col-xs-12">
+	
+	
+			<form method="post" name="myForm" action="/login" onsubmit="return validate()">
+			  <div class="form-group">
+					
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					
+				<label>Email :</label>
+				<input type="text" class="form-control" name="email" placeholder="Email" id="userhero">
+			  </div>
+			  <div class="form-group">
+						<i class="fas fa-lock"></i>
+				<label>Password :</label>
+				<input type="password" class="form-control" name="pass" placeholder="Enter Password">
+			  </div>
+			  <button type="submit" class="btn btn-danger">Login</button>
+			</form>
+	
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	  </div>
+	</body>
+
+	  <%- include('includes/footer')%>	  

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background-image: url("../../images/2.jpg");
+    
+        background-attachment:fixed;
+    background-size:cover;
+    font-family:new time roman;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+         
+        
+      }
+      .maain h5
+      {
+        color:white;
+        font-size:50px;
+        font-family:cursive;
+
+      }
+     .maain p
+      {
+        color:linen;
+        font-size:20px;
+        font-family: italic;
+        
+      }
+
+      .maain form
+      {
+        color:white;
+        font-size: 25px;
+        font-family:normal;
+      }
+     
+    </style>
+
+<script type="text/javascript">
+  function validate(){
+    var name = document.forms["myForm"]["email"].value;
+    var pass = document.forms["myForm"]["pass"].value;
+    if (name == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+    if (pass == "") {
+      alert("Password must be filled out");
+      return false;
+    }
+  }
+</script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+            
+                  <a class="navbar-brand" href="/home"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile Store</a>
+                </li>
+          <li class="nav-item active">
+            
+            <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="/contact" tabindex="-1">Contact</a>
+          </li>
+          </ul>
+          <ul class="navbar-nav mr-right">
+            <li class="nav-item active">
+            <a class="nav-link " href="/login" tabindex="-1" >LogIn</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link " href="/register" tabindex="-1" >Register</a>
+            </li>
+          </ul>
+          
+        
+        </div>
+        </nav>
